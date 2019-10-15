@@ -20,7 +20,7 @@ public class main2 extends javax.swing.JFrame {
      * Creates new form main2
      */
     public main2() {
-        setIcon();
+     // setIcon();
         initComponents();
     }
 
@@ -431,8 +431,8 @@ public class main2 extends javax.swing.JFrame {
         "Bahan Bakar", "Jarak Tempuh Awal", "Jarak Tempuh",
         "Total Jarak", "Efektivitas", "Keefektivitasan"};
     DefaultTableModel mdl = new DefaultTableModel(kolom, baris++);
-
+/*
     private void setIcon() {
         setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("op.png")));
-    }
+    }*/
 }
