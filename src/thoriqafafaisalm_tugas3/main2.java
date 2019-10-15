@@ -433,6 +433,6 @@ public class main2 extends javax.swing.JFrame {
     DefaultTableModel mdl = new DefaultTableModel(kolom, baris++);
 
     private void setIcon() {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("kenda.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("op.png")));
     }
 }
